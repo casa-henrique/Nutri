@@ -1,7 +1,13 @@
+import HeroImage from "../../assets/images/heroImage.png";
+
 export function Hero() {
   return (
     <section className="flex w-full h-[85vh] relative rounded-[0px_0px_0px_50px] overflow-hidden">
-      <img src="" alt="" className="w-full z-10 h-full abolute top-0 left-0" />
+      <img
+        src={HeroImage}
+        alt=""
+        className="w-full z-10 h-full abolute top-0 left-0 object-contain"
+      />
 
       <div className="flex flex-col gap-3 absolute z-20 right-16 top-1/2 -translate-y-1/2 w-[35%]">
         <h1 className="text-5xl text-black font-bold font-Poppins">

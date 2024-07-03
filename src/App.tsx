@@ -1,5 +1,8 @@
+import { Atendimento } from "./components/Atendimento";
 import { Cookies } from "./components/Cookies";
+import { Feedback } from "./components/Feedback";
 import { Footer } from "./components/Footer";
+import { Form } from "./components/Form";
 import { FormasAtendimento } from "./components/FormasAtendimento";
 import { Header } from "./components/Header";
 import { Help } from "./components/Help";
@@ -17,8 +20,11 @@ function App() {
       <Hero />
       <Help />
       <FormasAtendimento />
-      <Footer />
+      <Atendimento />
+      <Feedback />
+      <Form />
 
+      <Footer />
       <WhatsAppButton />
       {toggle && <Cookies />}
     </div>
