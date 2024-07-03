@@ -10,11 +10,11 @@ export function Form() {
     event.preventDefault();
     console.log("passsou");
 
-    const sendData = {
-      nome: name,
-      email: mail,
-      telefone: phone,
-    };
+    // const sendData = {
+    //   nome: name,
+    //   email: mail,
+    //   telefone: phone,
+    // };
   };
 
   return (

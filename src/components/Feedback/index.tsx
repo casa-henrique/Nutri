@@ -4,7 +4,6 @@ import camilaImage from "../../assets/images/feedback/camilaImage.png";
 import AnaLauraImage from "../../assets/images/feedback/AnaLauraImage.png";
 import bettineImage from "../../assets/images/feedback/bettineImage.png";
 import rafaelImage from "../../assets/images/feedback/rafaelImage.png";
-import logoImage from "../../assets/images/logo.svg";
 import starImage from "../../assets/images/feedback/stars.svg";
 import logoWhite from "../../assets/images/logoWhite.svg";
 
