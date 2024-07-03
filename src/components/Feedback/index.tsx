@@ -69,7 +69,7 @@ export function Feedback() {
 
         <a
           href=""
-          className="px-8 p-3 h-fit rounded-[33px] text-[rgb(45,56,35)] bg-[rgb(166,200,78)]"
+          className="px-8 p-3 h-fit rounded-[33px] text-[rgb(45,56,35)] hover:bg-[rgb(45,56,35)] hover:text-white bg-[rgb(166,200,78)]"
         >
           Deixe sua avaliação
         </a>
